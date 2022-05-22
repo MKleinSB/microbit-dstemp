@@ -13,7 +13,7 @@ namespace dstemp {
     const errorMsgs  = [ "No Error", "Not Connected", "Start Error", "Read Timeout", "Conversion Failure"];
 
     //% blockId="celsius" block="temperature (\u00B0\\C) on %pin|"
-    //% block.loc.de="Temperaturin (\u00B0\\C) an %pin|"
+    //% block.loc.de="Temperatur in (\u00B0\\C) an %pin|"
     //% shim=dstemp::celsius
     //% parts=dstemp trackArgs=0
     export function celsius(pin: DigitalPin) : number {
