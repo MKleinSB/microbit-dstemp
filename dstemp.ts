@@ -13,6 +13,7 @@ namespace dstemp {
     const errorMsgs  = [ "No Error", "Not Connected", "Start Error", "Read Timeout", "Conversion Failure"];
 
     //% blockId="celsius" block="temperature (\u00B0\\C) on %pin|"
+    //% block.loc.de="Temperaturin (\u00B0\\C) an %pin|"
     //% shim=dstemp::celsius
     //% parts=dstemp trackArgs=0
     export function celsius(pin: DigitalPin) : number {
@@ -42,6 +43,7 @@ namespace dstemp {
      * @param errCallback The error handler 
      */
     //% blockId="error" block="temperature sensor error"
+    //% block.loc.de="Temperatursensor Fehler"
     //% draggableParameters="reporter" weight=0
     export function sensorError(errCallback: (errorMessage: string, errorCode: number, port: number) => void) { 
         if(errCallback) {

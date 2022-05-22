@@ -20,10 +20,11 @@
     ],
     "public": true,
     "targetVersions": {
-        "target": "4.0.16",
-        "targetId": "microbit"
+        "target": "4.0.24",
+        "targetId": "calliopemini"
     },
     "supportedTargets": [
+        "calliopemini",
         "microbit"
     ],
     "preferredEditor": "tsprj",
